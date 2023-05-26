@@ -6,7 +6,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import telebot
 # -*- coding: cp1251 -*-
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=["start"])
 def start(message):
